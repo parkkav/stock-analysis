@@ -98,14 +98,14 @@ if cashflow:
         st.write(display_cashflow)
 
 #checkbox to display quarterly earnings for searched ticker
-earnings = st.sidebar.checkbox("Quarterly Earnings")
-if earnings:
-    st.subheader("""**Quarterly earnings** for """ + selected_stock)
-    display_earnings = (stock_data.quarterly_earnings)
-    if display_earnings.empty == True:
-        st.write("No data available at the moment")
-    else:
-        st.write(display_earnings)
+# earnings = st.sidebar.checkbox("Quarterly Earnings")
+# if earnings:
+#     st.subheader("""**Quarterly earnings** for """ + selected_stock)
+#     display_earnings = (stock_data.quarterly_earnings)
+#     if display_earnings.empty == True:
+#         st.write("No data available at the moment")
+#     else:
+#         st.write(display_earnings)
 
 #checkbox to display list of analysts recommendation for searched ticker
 analyst_recommendation = st.sidebar.checkbox("Analysts Recommendation")
@@ -118,4 +118,6 @@ if analyst_recommendation:
         st.write(display_analyst_rec)
 
 # if __name__ == "__main__":
-#     main()
+#     main()c
+#check my token and furtehr
+        
